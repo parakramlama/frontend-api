@@ -62,7 +62,12 @@ class MyCart extends Component {
                                         {item.product_name}<br />
                                         {item.product_price}<br />
 
-                                        <p> <button type="button" className="btn btn-danger btn-sm" onClick={this.deletecart.bind(this, item._id)}><FaRegTrashAlt /></button>
+                                        <p> <button type="button" className="btn btn-danger btn-sm" onClick={this.deletecart.bind(this, item._id)}>
+                                            
+
+                                            {/* <FaRegTrashAlt /> */}
+                                            
+                                            </button>
                                             <Link to={'/checkout/' + item._id}>  <button type="button" className="btn btn-primary btn-sm">Checkout</button></Link></p>
                                     </div>
                                 </div>

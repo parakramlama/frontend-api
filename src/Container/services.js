@@ -1,4 +1,5 @@
-import { Component } from "react";
+import React,  { Component } from "react";
+
 import './myStyle.css'
 
 class services extends Component {

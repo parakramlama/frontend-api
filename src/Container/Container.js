@@ -40,8 +40,8 @@ class Container extends Component{
                   <Route path="/services" component={services}/>
                 
 
-                  </Switch>
-               </BrowserRouter>
+                </Switch>
+            </BrowserRouter>
             
         )
     }
