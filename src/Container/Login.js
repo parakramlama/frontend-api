@@ -36,7 +36,8 @@ class Login extends Component{
         if(this.state.chkLogin==true){
             //redirect to dashboard
             
-            return  window.location.href='/dashboard'
+            return window.location.href='/show/product'
+            // return  window.location.href='/dashboard'
 
         }
         return(
@@ -48,8 +49,10 @@ class Login extends Component{
                     <div className="row no-gutters shadow" style={{background:'white', borderRadius:'3px'}}>
                     
                         <div className="col-lg-5">
+
+                        <img alt="login" src="/iphone.jpg" className="img-fluid" style={{ height: '400px' }} />
                 
-                                <img alt="login" src="/sign.png" className="img-fluid" style={{ height: '400px' }} />
+                                {/* <img alt="login" src="/sign.png" className="img-fluid" style={{ height: '400px' }} /> */}
                         </div>
 
                         <div className="col-lg-5 no gutters">

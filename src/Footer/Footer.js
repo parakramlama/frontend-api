@@ -60,11 +60,12 @@ class Footer extends Component{
             
                 <div className="col-md-3 col-lg-4 col-xl-3 mb-4">
           
-                  <h6 className="text-uppercase font-weight-bold">Mobile Shop Nepal</h6>
+                  <h6 className="text-uppercase font-weight-bold">Mobile Store</h6>
                   <hr className="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style={{width: '60px'}}></hr>
-                  <p>Here you can buy mobiles and mobile accessories and repair your mobiles in cheaper cost
+                  {/* <p>Here you can buy mobiles and mobile accessories and repair your mobiles in cheaper cost
                     in all over Kathmandu
-                    Mobile Shop Nepal.</p>
+                    Mobile Shop Nepal.</p> */}
+                    <p>Best place to buy mobile phones. Also, we have repair facility</p>
           
                 </div>
          
@@ -84,7 +85,7 @@ class Footer extends Component{
                         <a className="dark-grey-text" href="#!">Mi</a>
                     </p>
                     <p>
-                        <a className="dark-grey-text" href="#!">Honor</a>
+                        <a className="dark-grey-text" href="#!">OPPO</a>
                     </p>
           
                 </div>
@@ -113,13 +114,13 @@ class Footer extends Component{
                     <h6 className="text-uppercase font-weight-bold">Contact</h6>
                     <hr className="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style= {{width: '60px'}}></hr>
                     <p>
-                        <i className="fas fa-home mr-3"></i> Tokha, KTM 10012, US</p>
+                        <i className="fas fa-home mr-3"></i> Tokha, KTM, Nepal</p>
                     <p>
-                        <i className="fas fa-envelope mr-3"></i> ujjwal@gmail.com</p>
+                        <i className="fas fa-envelope mr-3"></i> mobile.store@gmail.com</p>
                     <p>
-                        <i className="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <i className="fas fa-phone mr-3"></i> + 01-123 4567</p>
                     <p>
-                        <i className="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                        <i className="fas fa-print mr-3"></i> + 01-854 3454</p>
           
                 </div>
         
@@ -129,8 +130,8 @@ class Footer extends Component{
           
             </div>
          
-            <div className="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
-                <a className="dark-grey-text" href="https://mobilenepals.com/"> ujjwalkhatri.com</a>
+            <div className="footer-copyright text-center text-black-50 py-3">© 2021 Copyright:
+                <a className="dark-grey-text" href="https://mobilenepals.com/"> mobilestore.com</a>
             </div>
           
           </footer>
