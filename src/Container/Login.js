@@ -36,7 +36,8 @@ class Login extends Component{
         if(this.state.chkLogin==true){
             //redirect to dashboard
             
-            return window.location.href='/show/product'
+            return window.location.href='/products/all'
+            //return window.location.href='/show/product'
             // return  window.location.href='/dashboard'
 
         }
